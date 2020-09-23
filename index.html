@@ -15,7 +15,7 @@
       How To Calculate Daily Student Loan Interest
     </h1>
 
-    <section>
+    <section class="mx-auto text-center">
       <div class="dailyinterestrate">
         <h1>
           Calculate your daily interest rate (sometimes called interest rate
@@ -25,14 +25,14 @@
           Divide your annual student loan interest rate by the number of days in
           the year.
         </h2>
-        <h3>.07/365 = 0.00019, or 0.019%</h3>
+        <h3 id="daily-interest">.07/365 = 0.00019, or 0.019%</h3>
       </div>
       <div class="interestperday">
         <h1>Calculate the amount of interest your loan accrues per day.</h1>
         <h2>
           Multiply your outstanding loan balance by your daily interest rate.
         </h2>
-        <h3>$10,000 x 0.00019 = $1.90</h3>
+        <h3 id="interest-per-day">$10,000 x 0.00019 = $1.90</h3>
       </div>
       <div>
         <h1>3. Find your montly interest payment</h1>
@@ -40,7 +40,7 @@
           Multiply your daily interest amount by the number of days since your
           last payment.
         </h2>
-        <h3>$1.90 X 30 = $57</h3>
+        <h3 id="monthly-interest">$1.90 X 30 = $57</h3>
       </div>
     </section>
 
@@ -74,6 +74,7 @@
           Calculate
         </button>
       </p>
+      <input type="submit" />
     </form>
   </body>
 </html>
